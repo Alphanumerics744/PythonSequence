@@ -1,5 +1,4 @@
-# Python 3 code to find sum 
-# of elements in given array 
+# Python 3 code to find sum of elements in given array 
 def _sum(arr): 
       
     # initialize a variable
