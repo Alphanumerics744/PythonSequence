@@ -28,10 +28,20 @@ ans = _sum(arr)
 # display sum 
 print ('Sum of the array is ', ans) 
   
-# This code is contributed by Himanshu Ranjan 
+# This code is contributed
 Output:
 Sum of the array is  34
 Method 2:
+      
+year = int(input('enter year'))
+if year % 400 == 0:
+  print('it is a leap year')
+elif year % 4 == 0:
+  print('it is a leap year')
+elif year % 100 == 0:
+  print('not a leap year')
+else:
+  print('not a leap year')
 
 
 # Python 3 code to find sum 
