@@ -1,4 +1,4 @@
-#Represent a node of doubly linked list    
+# Represent a node of doubly linked list in this program.   
 class Node:    
     def __init__(self,data):    
         self.data = data;    
