@@ -33,6 +33,20 @@ class BinaryTreeToDLL:
             #node's left will point to tail    
             node.left = self.tail;    
             #node will become new tail    
+            
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 10;
+    int b = 20;
+    cout<<a<<" "<<b<<endl;
+    int temp = a;
+    a = b;
+    b = temp;
+    cout<<a<<" "<<b<<endl;
+    return 0;
+}
+
             self.tail = node;    
                 
         #Convert right subtree to doubly linked list    
