@@ -1,4 +1,4 @@
-#Represent a node of binary tree    
+#Represent a node of binary tree in this code
 class Node:    
     def __init__(self,data):    
         self.data = data;    
