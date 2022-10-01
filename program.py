@@ -1,4 +1,4 @@
-#Take the input from the user:   
+# Take the input from the user in this code. 
 lower = int(input("Enter lower range: "))  
 upper = int(input("Enter upper range: "))  
   
